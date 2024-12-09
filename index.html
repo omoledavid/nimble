@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Nimble</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/root.css" />
+    <link rel="stylesheet" href="./font/font.css" />
+</head>
+
+<body>
+    <main class="main">
+        <header class="sticky-top">
+            <!-- Navigation Bar  -->
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <a class="navbar-brand" href="#">
+                        <img src="./images/logo.svg" />
+                    </a>
+                    <button class="navbar-toggler text-white p-0" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <section style="margin-top: 20px;" class="body container">
+            <div class="main-body">
+                <div>
+                    <h2 class="join-header">Join our Waitlist</h2>
+                    <p class="join-p">Nimble is revolutionizing shopping by making it faster and more convenient. Stay
+                        tuned for the
+                        launch
+                        of our innovative app!</p>
+                    <div class="form">
+                        <div class="input-group">
+                            <span class="majesticons--user-line"></span>
+                            <input type="text" />
+                        </div>
+                        <div class="input-group">
+                            <span class="formkit--email"></span>
+                            <input type="text" />
+                        </div>
+                        <button class="form-button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            Join the waitlist
+                            <span class="gg--arrow-right"></span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="">
+                    <div class="image-container">
+                        <img src="./images/hero-image.svg" class="" width="98%" alt="">
+                        <img class="frame-image" src="./images/hero-image-frame.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <span id="year-container"></span>
+        </footer>
+    </main>
+
+    <!-- Modal  -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="text-center">
+                    <img src="./images/thank-you.svg" width="60%" class="" alt="">
+                </div>
+                <h3 class="join-header text-center">Thank You!!!</h3>
+                <p class="join-p text-center">We've added kaybams@gmail.com to our waitlist. We'll let you know when the
+                    Nimble app is ready.</p>
+                <button class="form-button" data-bs-dismiss="modal">
+                    Close
+
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Custom JS  -->
+    <script src="./index.js"></script>
+    <!-- Bootstrap Links  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
